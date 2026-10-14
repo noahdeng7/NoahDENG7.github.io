@@ -4,24 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noah Dengler</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Noah Dengler</h1>
-    <img src="portrait.jpg" alt="a picture of me" height="250">
-    <h2>About me</h2>
-    <p>My name is Noah Dengler, and I am a sophomore computer science student at Tufts University. 
-        I have a passion for research, specifically in machine learning, and have done/am currently
-        doing research at Tufts in the Liu Lab, at the National Center for Supercomputing Applications,
-        (NCSA), and am currently leading my own research at Tufts.
-    </p>
+    <div class="about">
+        <img src="portrait.jpg" alt="a picture of me" class="profile-pic">
+        <div>
+            <h2>About me</h2>
+            <p>My name is Noah Dengler, and I am a sophomore computer science student at Tufts University. 
+            I have a passion for research, specifically in machine learning, and do research 
+            at Tufts in the Liu Lab, at the National Center for Supercomputing Applications,
+            (NCSA), and am currently leading my own research at Tufts.
+            </p>
+        </div>
+    </div>
     <h2>News</h2>
     <ul>
-        <li>My paper with Pranav Verma and Dr. Angela Lyons' group at UIUC was accepted to 
-        the ACM/IEEE JCDL 2026 Undergraduate Research Symposium! 
+        <li>
+            My paper with Pranav Verma and Dr. Angela Lyons' group at UIUC was accepted to 
+            the ACM/IEEE JCDL 2026 Undergraduate Research Symposium
+        </li>
+        <li>
+            Nominated by the Tufts CS department for the 2027 <a href="https://engineering.tufts.edu/cs/research/undergraduate-research/undergrad-research-award-nominees" target="_blank">CRA Undergraduate Researcher Award</a>
         </li>
         <li>Recognized as an <a href="https://ai.ncsa.illinois.edu/celebrating-summer-research/" target="_blank">Outstanding Research Fellow</a>
             for work done during the 2026 REU FoDoMMaT program
         </li>
     </ul>
+    <h2>Publications</h2>
+    <ul>
+        <li>
+            "Beyond Gravity Models: Predicting Human Migration with Spatial Gates and Graph Neural Networks" Accepted to JCDL
+            2026 URS
+        </li>
+    </ul>
+    <h2>Research Experience</h2>
+    <h4>National Center for Supercomputing Applications (NCSA)</h3>
+    <p>Working with Dr. Angela Lyons' group at the NCSA this past summer, I worked to use machine 
+        learning to model internal human migration in developing countries. I am still working 
+        with her team today, hoping to use these models to uncover the causes of human migration 
+        in Brazil.
+    </p>
+    <h4>LiuLab</h4>
+    <p>Working with Dr. Liu and his group at Tufts, we are working on evaluating physics-based 
+        subseasonal-to-seasonal (S2S) weather forecasting models' ability to forecast extreme 
+        events like hurricanes, heatwaves, etc.
+    </p>
+    <h4>Independent Research</h4>
+    <p>I am currently working on a project involving one of my biggest interests in ML:
+        sparsity! By using dynamic sparse training (DST) we can maintain the same performance 
+        in accuracy with less than 1% of the connections! I am currently working to study the 
+        emergent behavior of the sparse topologies that are produced by various DST methods.
+    </p>
+    <h2>Projects</h2>
+    <h4>Supamines</h4>
+    <p><a href="https://github.com/noahdeng7/SUPAMINES" target="_blank">SUPAMINES</a> 
+        (the Self-SUPervised-Attention-based MINo inferencE System) is one of my ML passion 
+        projects. Utilizing PPO on a transformer and a lagrangian constraint, this model uses 
+        the transformer architecture and novel reward system to match the current best model, 
+        BetaTetris, with only a quarter of the parameters! You can download and watch the model 
+        play for yourself, or view the demo <a href="https://www.youtube.com/watch?v=OyqwL-DsvYQ" target="_blank">here.</a>
+    </p>
+    <h2>Hobbies/interests</h2>
+    <p>Aside from research, I like doing other things! I also play Tetris competitively. 
+        notable achievements include:
+    </p>
+        <ul>
+            <li>4th Place in the 2024 World Championships</li>
+            <li>First ever <a href="https://youtu.be/YrgQDETGO00?si=0itPxdzTnJ08s7a2" target="_blank">Perfect Maxout</a> (FWR)</li>
+            <li>First ever 1.5 million into level 29 (WR)</li>
+            <li>Earliest 1.6 million (FWR)</li>
+            <li>Earliest level 29 start maxout (FWR)</li>
+        </ul>
 </body>
 </html>
