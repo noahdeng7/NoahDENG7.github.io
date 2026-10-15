@@ -19,3 +19,8 @@ h1 { margin-bottom: 0.2em; }
 @media (max-width: 600px) {
     .about { flex-direction: column; }
 }
+
+.pubs li { margin-bottom: 1.2em; }
+.pubs .authors { margin-top: 0.2em; }
+.pubs .venue { color: #000000; }
+.pubs .note { font-size: 0.85em; color: #777; }
